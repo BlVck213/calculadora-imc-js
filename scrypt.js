@@ -6,6 +6,7 @@ const resultado = document.getElementById("resultado")
 
 
 function calculadora(){
+    
         if(nome.value !== '' && altura.value !== '' && peso.value !== '' ){
         
             const imc = parseFloat(peso.value) / parseFloat(altura.value ** 2)
